@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Principal</title>
+        <meta charset="utf-8">
+        <meta name="description" content="Este es un documento HTML5">
+        <meta name="keywords" content="HTML, CSS, JavaScript">
+        <link rel="stylesheet" href="../Estilo/EstiloPrac05.css">
+    </head>
+    <body>
+        <header id="cabeceralogo">
+            <div>
+                <h1>Principal</h1>
+            </div>
+        </header>
+        <nav id="menuicono">
+            <img src="../Imagenes/01.png" width="35" height="28" id="menu-img">
+        </nav>
+        <nav id="menuprincipal">
+            <div>
+                <ul>
+                    <li><a href="Practica_05_1P.html">Principal</a></li>
+                    <li><a href="Practica_05_2F.html">Fotos</a></li>
+                    <li><a href="Practica_05_3V.html">Videos</a></li>
+                    <li><a href="Practica_05_4C.html">Contacto</a></li>
+                </ul>
+            </div>
+        </nav>
+        <main>
+            <div>
+                <section id="articulosprincipales">
+                    <article>
+                        <h1>Huawei serie P30</h1>
+                        <time datetime="2019-04-14" pubdate>
+                            <div class="numerodia">14</div>
+                            <div class="nombredia">Domingo</div>
+                        </time>
+                        <p>Siguiendo este link llegraras a mi pagina web sobre el la familia del <a href="https://dsbeltran.neocities.org/Unidad_1/Trabajo_Exa_P1/Proyecto/Trabajo_Exa_Home.html">P30</a></p>
+                        <figure>
+                            <img src="../Imagenes/Rec07.jpg">
+                        </figure>
+                    </article>
+                </section>
+                <aside id="infoadicional">
+                    <h1>David Beltran</h1>
+                    <p>Articulo 1 huawei p30</p>
+                </aside>
+                <div class="recuperar"></div>
+            </div>
+        </main>
+        <footer id="pielogo">
+            <div>
+                <section class="seccionpie">
+                    <h1>Sitio Web</h1>
+                    <p><a href="Practica_05_1P.html">Principal</a></p>
+                    <p><a href="Practica_05_2F.html">Fotos</a></p>
+                    <p><a href="Practica_05_3V.html">Videos</a></p>
+                </section>
+                <section class="seccionpie">
+                    <h1>Ayuda</h1>
+                    <p><a href="Practica_05_4C.html">Contacto</a></p>
+                </section>
+                <section class="seccionpie">
+                    <address>Quito, Ecuador</address>
+                    <small>&copy; Derechos Reservados 2019</small>
+                </section>
+                <div class="recuperar"></div>
+            </div>
+        </footer>
+    </body>
+    <script>
+        var visible = false;
+        function iniciar() 
+            {
+                var elemento = document.getElementById("menu-img");
+                elemento.addEventListener("click", mostrarMenu);
+            }
+        function mostrarMenu() 
+        {
+            var elemento = document.getElementById("menuprincipal");
+            if (!visible) 
+            {
+            elemento.style.display = "block";
+            visible = true;
+            } 
+            else 
+            {
+            elemento.style.display = "none";
+            visible = false;
+            }
+        }
+        window.addEventListener("load", iniciar);
+    </script>
+    
+</html>

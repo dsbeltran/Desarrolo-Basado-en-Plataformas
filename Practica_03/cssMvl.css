@@ -1,0 +1,35 @@
+html, body {
+        	margin: 0px;
+    	    padding: 0px;
+        	height: 100%;
+	        width: 100%;
+        }
+        .caja1 {
+	        height: 90%;
+	        width: 50%;
+    	    background-color: #FF9;
+	        float: left;
+        }           
+        .caja2 {
+	        height: 50%;
+	        width: 50%;
+    	    background-color: #CCF;
+        	position: absolute;
+	        left: 25%;
+    	    top: 23%;
+        }
+        .caja3 {
+    	    height: 90%;
+        	width: 50%;
+	        float: left;
+	        background-color: #CFC;
+        }
+        .caja4 {
+	        height: 10%;
+	        background-color: #FC6;
+	        clear: both;
+	        position: fixed;
+	        bottom: 0px;
+	        left: 0px;
+    	    width: 100%;
+        }

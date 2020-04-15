@@ -1,0 +1,10 @@
+/*
+*Pontificia Universidad Catolica del Ecuador
+*Nombre: David Beltran
+*Fecha: 14/04/2019
+*Descripcion:Practica 05
+*Tema:Pagina web responsive
+*Materia: Desarrolo basado en Plataformas
+*Nivel: 3
+*Carrera: Ingenieria Sistemas de Informacion
+*/

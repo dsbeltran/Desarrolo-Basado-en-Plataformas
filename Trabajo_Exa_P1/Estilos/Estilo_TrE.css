@@ -1,0 +1,124 @@
+body {
+    font-family: Arial;
+
+    background:#f6f6f6;
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-bottom: 0px;
+    padding-right: 0px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    margin-right: 0px;
+  }
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #063971;
+    position: fixed;
+  top: 0;
+  width: 100%;
+}
+li {
+    float: right;
+  }
+  li.N1
+{
+    float: left;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  .divimg {
+    margin-top: 46px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    position: relative;
+}
+Nav ul li a {
+  display: block;
+  position: relative;
+}
+
+.card {
+
+  padding: 20px;
+  margin-top: 20px;
+  background-color: white;
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+
+  }
+.xcard {
+    background-color: rgb(255, 255, 255,.6);
+    padding: 20px;
+    position: absolute;
+    width: 100%;
+    margin-top: 344px;
+    top: 0px;
+
+  }
+  article{
+    background-color: white;
+    
+  }
+  .content {
+    margin-bottom: 0px;
+    margin-top: 0px;
+    margin-left: 0px;
+    padding-top: 50px;
+    padding-left: 80px;
+    padding-bottom: 20px;
+    padding-right: 80px;
+    display: flex;
+    flex-direction: row;
+    background-color:#cdcecf;
+  }
+  .about
+  {
+    padding-left: 100px;
+    padding-top: 20px;
+    padding-right: 100px;
+    padding-bottom: 20px;
+    margin-top: 10px;
+    color:white;
+    background-color: #22548a;
+  }
+  footer{
+    color:white;
+    background-color: #063971;
+    margin-top: 0px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .footer{
+    display: flex;
+    flex-direction: row;
+    background-color: #063971;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+  }
+  .card2{
+    padding: 20px;
+    margin-top: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  h5{
+    padding-left: 40px;
+  }

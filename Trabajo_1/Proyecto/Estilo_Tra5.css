@@ -1,0 +1,64 @@
+@charset "utf-8";
+div
+{
+    height: 120px;
+	width: 120px;
+	margin-left: 50px;
+	float: left;
+	margin-bottom: 20px;
+	text-align: center;
+	padding: 20px;
+	margin-top: 20px;
+	background-color: #F2F1EE;
+	border: 1px solid #000
+}
+
+.modA
+{
+	border-radius: 24px;
+}
+.modB
+{
+	border-top-left-radius: 20px;   
+}
+.modC
+{
+	border-radius: 24px 0;
+}
+.modD
+{
+	border-radius: 50px 10px;
+}
+.modE
+{
+	border-top-right-radius: 50px 30px;
+}
+
+.modF
+{
+    border-bottom-right-radius: 20px 20px;
+}
+.modG
+{
+	
+}
+.modH
+{
+
+}
+.modI
+{
+    background: linear-gradient(to right, yellow 0%, blue 100%)
+}
+.modJ
+{
+    background: linear-gradient(to bottom right, yellow 0%, blue 100%)
+}
+.modK
+{
+    background: linear-gradient(red, yellow, green);
+}
+.modL
+{
+    background: linear-gradient(to center, yellow 0%, blue 100%)
+}
